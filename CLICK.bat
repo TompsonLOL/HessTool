@@ -145,17 +145,9 @@ if /i "%user_input%"=="salut" (
     echo IA: C'est quoi cette question de CON ?
 ) else if /i "%user_input%"=="tu as des frères ou sœurs ?" (
     echo IA: Oui, ChatGPT.
-) else if /i "%user_input%"=="Anthonin" (
-    echo IA: Encore une fois le GOAT.
 ) else if /i "%user_input%"=="aide moi" (
     echo IA: Bonsoir, NON.
     echo ADMIN: Cela arrive prochainement.
-) else if /i "%user_input%"=="Marius" (
-    echo IA: C'est qui ce golmon ?
-) else if /i "%user_input%"=="Maho" (
-    echo IA: Beau Gooooooooooooooooooooooooooooooooooosse.
-) else if /i "%user_input%"=="mln" (
-    echo IA: Le chef de toute une generation.
 ) else if /i "%user_input%"=="salope" (
     echo IA: Ose redire ca va te DDOS.
 ) else if /i "%user_input%"=="connard" (
