@@ -49,7 +49,7 @@ echo Pour quitter le tchat, appuyez sur Ctrl+C.
 echo.
 
 rem Lancement du script de tchat en batch depuis le dossier SERVEUR
-call SERVEUR\msg.bat
+call msg.bat
 
 pause
 goto menu
@@ -154,7 +154,7 @@ if /i "%user_input%"=="salut" (
     echo IA: OK gars.
 ) else if /i "%user_input%"=="soundboard" (
     print ADMIN: Veuillez recommencer la commande pour avoir accès a la soundboard.
-    set "fichier_html=SERVEUR\sound.html"
+    set "fichier_html=sound.html"
     start "" "%fichier_html%"
     goto menu
 ) else (
